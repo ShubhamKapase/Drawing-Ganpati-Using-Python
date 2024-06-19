@@ -4,7 +4,7 @@ from playsound import playsound
 
 # _____________Function 
 def play_song():
-    playsound("D:\Ganpati Bappa - Song.mp3")
+    playsound("D:\Drawing-Ganpati-Using-Python\Ganpati Bappa - Song.mp3")
 
 # ____________Start the song playback in a separate thread
 song_thread = threading.Thread(target=play_song)
